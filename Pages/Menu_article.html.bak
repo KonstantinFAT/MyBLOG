@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Subtitles Menu</title>
+		<link href="C:/Users/Константин/Desktop/My web page/css/article_menu_style.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<div class="main">
+			<header id="shapka">
+			<a class = "main_a" href="C:/Users/Константин/Desktop/My web page/Pages/Main.html">Блог от недоинженера из глубинки:)</a>
+			</header>
+			
+			<main>
+				<div class="article">
+					<h2><a href="C:/Users/Константин/Desktop/My web page/Pages/Article1.html" target="_blank">ПРИМЕНЕНИЕ ТЕОРИИ ПОДОБИЯ И ФИЗИЧЕСКИХ ОСНОВ НАДЕЖНОСТИ ПРИ ОПРЕДЕЛЕНИИ ВЕРОЯТНОСТИ ОТКАЗА НАСОСНОГО АГРЕГАТА</a></h2>
+					<a class="download" href="C:/Users/Константин/Desktop/My web page/Download/Применение теории подобия и физических основ надежности при определении вероятности отказа насосного агрегата.docx" download="">Скачать статью</a>
+					<p>Автор: Фатхуллин К.Д., научный руководитель: Грунской Т.В.<p>
+					<p>Дата публикации: 30.11.2021<p>
+				</div>
+				<div class="article">
+					<h2>Заголовок статьи 2</h2>
+				</div>
+			</main>
+			
+			<menu>
+				<!--Пока пусто
+				-->
+			</menu>
+			
+			
+			<footer id="dno">
+				2021 Начало
+			</footer>
+		</div>
+	
+	
+	
+	
+	
+	</body>
+</html>

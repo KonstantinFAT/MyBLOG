@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<title>My first website</title>
-		<link href="C:/Users/Константин/Desktop/My web page/MyBLOG/css/style.css" rel="stylesheet" type="text/css">
+		<link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css">
 	</head>
 	
 	<body>
 		<div class="main">
 			<header id="shapka">
-			<ul class = "pop-up_menu"><img class="menu" src="C:/Users/Константин/Desktop/My web page/image/menu.png">
+			<ul class = "pop-up_menu"><img class="menu" src="{{url_for('static', filename='image/menu.png')}}">
 				<ol class = "menu_website">
-					<li> <a href="C:/Users/Константин/Desktop/My web page/MyBLOG/Pages/Menu_article.html" target="_blank">Статьи</a> </li>
+					<li> <a href="C:/Users/Константин/Desktop/My web page/MyBLOG/templates/Menu_article.html" target="_blank">Статьи</a> </li>
 					<li> Материал для загрузки </li>
 				</ol>
 			</ul>
@@ -19,7 +19,7 @@
 			
 			<main>
 				<div class="article">
-					<h2><a href="C:/Users/Константин/Desktop/My web page/MyBLOG/Pages/Article1.html" target="_blank">ПРИМЕНЕНИЕ ТЕОРИИ ПОДОБИЯ И ФИЗИЧЕСКИХ ОСНОВ НАДЕЖНОСТИ ПРИ ОПРЕДЕЛЕНИИ ВЕРОЯТНОСТИ ОТКАЗА НАСОСНОГО АГРЕГАТА</a></h2>
+					<h2><a href="C:/Users/Константин/Desktop/My web page/MyBLOG/templates/Article1.html" target="_blank">ПРИМЕНЕНИЕ ТЕОРИИ ПОДОБИЯ И ФИЗИЧЕСКИХ ОСНОВ НАДЕЖНОСТИ ПРИ ОПРЕДЕЛЕНИИ ВЕРОЯТНОСТИ ОТКАЗА НАСОСНОГО АГРЕГАТА</a></h2>
 					<p class = "annotation"> 
 						Для повышения безопасности работников при эксплуатации технических систем и устройств работодатель применяет различные методы и способы защиты,
 						например, организует проведение экспертиз промышленной безопасности, специальной оценки условий труда, внутреннего аудита,
@@ -28,7 +28,7 @@
 						В связи с выше написанным предлагаю рассмотреть в качестве средства контроля надежности насосов разработку математической модели.
 						В данной работе в качестве объекта моделирования будет насос лопастной центробежный.
 					</p>
-					<img src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/For_articles/for_nasos.jpg">
+					<img src = "C:/Users/Константин/Desktop/My web page/MyBLOG/static/image/For_articles/for_nasos.jpg">
 				</div>
 				<div class="article">
 					<h2>Заголовок статьи 2</h2>

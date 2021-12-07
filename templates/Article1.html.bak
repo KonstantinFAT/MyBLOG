@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Article 1</title>
-		<link href="C:/Users/Константин/Desktop/My web page/MyBLOG/css/style_article.css" rel="stylesheet" type="text/css">
+		<link href="{{url_for('static', filename='css/style_article.css')}}" rel="stylesheet" type="text/css">
 	</head>
 	
 	<body>
 		<div class="main">
 			<header id="shapka">
-			<a href="C:/Users/Константин/Desktop/My web page/MyBLOG/Pages/Main.html">Блог от недоинженера из глубинки:)</a>
+			<a href="C:/Users/Константин/Desktop/My web page/MyBLOG/templates/Main.html">Блог от недоинженера из глубинки:)</a>
 			</header>
 			
 			<main>
@@ -63,7 +63,7 @@
 					противоположную направлению вращения колеса. Внутренние поверхности дисков и поверхности лопастей образуют так называемые межлопастные каналы колеса, 
 					которые при работе насоса заполнены перекачиваемой жидкостью.
 					</p>
-					<p class="fig_nasos"><img class="image" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image1.png"></p>
+					<p class="fig_nasos"><img class="image" src = "{{url_for('static', filename='image/Article_nasos/image1.png')}}></p>
 					<p class = "picture_caption">
 					Рисунок 1 – Центробежный насос
 					</p>
@@ -76,7 +76,7 @@
 					будет действовать центробежная сила, определяемая выражением:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula1.png">
+					<img class="image_formula" src = "{{url_for('static', filename='image/Article_nasos/image_formula1.png')}}">
 					</p>
 					<p>
 					Под действием этой силы жидкость выбрасывается из рабочего колеса, в результате чего в центре колеса создается разряжение,
@@ -105,13 +105,13 @@
 					Напор можно представить, как высоту, на которую может быть поднят 1 кг перекачиваемой жидкости за счет энергии, сообщаемой ей насосом.
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula " src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula2.png">
+					<img class="image_formula " src = "{{url_for('static', filename='image/Article_nasos/image_formula2.png')}}">
 					</p>
 					<p>
 					при одинаковых всасывающих и напорных трубопроводах:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula3.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula3.png')}}">
 					</p>
 					<p>
 					Мощностью насоса (мощностью, потребляемой насосом) называется энергия, подводимая к нему от двигателя за единицу времени.
@@ -120,13 +120,13 @@
 					прошедшей через насос, или полезная мощность насоса:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula4.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula4.png')}}">
 					</p>
 					<p>
 					Мощность насоса на валу N больше полезной мощности N<sub>П</sub> на величину потерь в насосе, которые учитываются коэффициентом полезного действия насоса:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula5.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula5.png')}}">
 					</p>
 					<p>
 					Оптимальная и надежная работа насоса невозможна без учета таких факторов, как: кавитация, вибрация, осевая нагрузка, объемные и локальные завихрения потока.
@@ -147,7 +147,7 @@
 					ускорений в патоке при входе в насос и преодоления сопротивлений без падения местного давления до значения, ведущего к образованию кавитации.
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula6.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula6.png')}}">
 					</p>
 					<p>
 					2. Завихрения
@@ -157,7 +157,7 @@
 					которое можно найти по формуле:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula7.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula7.png')}}">
 					</p>
 					<p>
 					3. Вибрация
@@ -169,7 +169,7 @@
 					и находится по формуле [3]:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula8.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula8.png')}}">
 					</p>
 					<p>
 					4. Осевая нагрузка на колесо
@@ -182,33 +182,33 @@
 					Суммарное статическое усилие [4]:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula9.png">
+					<img class="image_formula formula_width" src = "{{url_for('static', filename='image/Article_nasos/image_formula9.png')}}">
 					</p>
 					<p>
 					Итак, описанные выше параметры оказывают воздействие на насос. Учитывая, что f(x<sub>1</sub>,x<sub>2</sub>,…x<sub>n</sub>) некоторая временная функция,
 					запишем в виде степенного комплекса:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula10.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula10.png')}}">
 					</p>
 					<p>
 					Далее необходимо найти показатели размерности величины. Для удобства преобразуем выражение (12) в виде единиц измерения:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula_none.png">
+					<img class="image_formula formula_width" src = "{{url_for('static', filename='image/Article_nasos/image_formula_none.png')}}">
 					</p>
 					<p>
 					Из приведенного выше соотношения необходимо вывести показатели размерности величины. Получим следующую систему уравнений:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula_none_2.png">
+					<img class="image_formula formula_width" src = "{{url_for('static', filename='image/Article_nasos/image_formula_none_2.png')}}">
 					</p>
 					<p>
 					При определении показателей размерности выяснилось, что показатель δ=0, соответственно суммарное статическое усилие далее в функции не учитывается.
 					Учитывая показатели и некоторый коэффициент, получаем функцию А:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula11.png">
+					<img class="image_formula formula_width" src = "{{url_for('static', filename='image/Article_nasos/image_formula11.png')}}">
 					</p>
 					<p>
 					Функция A показывает, что вероятность отказа в работе насоса по большей степени зависит от кавитации. 
@@ -217,7 +217,7 @@
 					Итак, физическую часть модели рассмотрели, далее необходимо рассмотреть статистическую часть. Предлагаю рассмотреть насосный агрегат как систему с дискретными состояниями,
 					в которые она может переходить с определенными вероятностями [5]. Для решения этой задачи необходимо построить граф состояний (рисунок 2). 
 					</p>
-					<p class="fig_nasos"><img class="image" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image2.png"></p>
+					<p class="fig_nasos"><img class="image" src = "{{url_for('static', filename='image/Article_nasos/image2.png')}}"></p>
 					<p class = "picture_caption">
 					Рисунок 2 – Граф состояний системы «Насосный агрегат»
 					</p>
@@ -238,7 +238,7 @@
 					Для описания графа состояний системы «насосный агрегат» необходимо составить систему уравнений Колмагорова:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula12.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula12.png')}}">
 					</p>
 					<p>
 					где	<ul>
@@ -267,14 +267,14 @@
 					поэтому далее их можно не рассматривать.
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula13.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula13.png')}}">
 					</p>
 					<p>
 					Далее необходимо перевести систему уравнений в матричный вид и с помощью метода Гаусса вывести вероятности.
 					Итоговые вероятности нахождения насосного агрегата в определенном положении:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width formula_height" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula14.png">
+					<img class="image_formula formula_width formula_height" src = "{{url_for('static', filename='image/Article_nasos/image_formula14.png')}}">
 					</p>
 					<p>
 					В результате расчетов получаем необходимые вероятности состояния системы. Для расчетов вероятности безотказной работы насосного агрегата интересует положение 1
@@ -282,7 +282,7 @@
 					будет находиться по следующей формуле:
 					</p>
 					<p class = "fig_formula">
-					<img class="image_formula formula_width" src = "C:/Users/Константин/Desktop/My web page/MyBLOG/image/Article_nasos/image_formula15.png">
+					<img class="image_formula formula_width" src = "{{url_for('static', filename='image/Article_nasos/image_formula15.png')}}">
 					</p>
 					<p>
 					Итоговое выражение (15) является моделью надежности насосного агрегата как частично восстанавливаемой системы с внезапными отказами,

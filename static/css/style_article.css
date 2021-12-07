@@ -8,7 +8,7 @@ body{
 
 .main{
 	height: auto;
-	background-image: url("C:/Users/Константин/Desktop/My web page/MyBLOG/image/background.jpg");
+	background-image: url("/static/image/background.jpg");
 	display: grid;
 	grid-template-columns: 1fr 1000px 1fr;
 	grid-template-rows: 100px repeat(auto-fill) 100px;
@@ -163,7 +163,7 @@ a{
 }
 @font-face{
 	font-family: 'AmaticSC-Regular';
-	src: url("C:/Users/Константин/Desktop/My web page/MyBLOG/font/AmaticSC-Regular.ttf") format("truetype");
+	src: url("/static/font/AmaticSC-Regular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }

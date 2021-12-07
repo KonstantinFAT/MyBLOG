@@ -63,7 +63,7 @@
 					противоположную направлению вращения колеса. Внутренние поверхности дисков и поверхности лопастей образуют так называемые межлопастные каналы колеса, 
 					которые при работе насоса заполнены перекачиваемой жидкостью.
 					</p>
-					<p class="fig_nasos"><img class="image" src = "{{url_for('static', filename='image/Article_nasos/image1.png')}}></p>
+					<p class="fig_nasos"><img class="image" src = "{{url_for('static', filename='image/Article_nasos/image1.png')}}"></p>
 					<p class = "picture_caption">
 					Рисунок 1 – Центробежный насос
 					</p>

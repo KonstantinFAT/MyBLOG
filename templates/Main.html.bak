@@ -10,7 +10,7 @@
 			<header id="shapka">
 			<ul class = "pop-up_menu"><img class="menu" src="{{url_for('static', filename='image/menu.png')}}">
 				<ol class = "menu_website">
-					<li> <a href="C:/Users/Константин/Desktop/My web page/MyBLOG/templates/Menu_article.html" target="_blank">Статьи</a> </li>
+					<li> <a href="/articles">Статьи</a> </li>
 					<li> Материал для загрузки </li>
 				</ol>
 			</ul>
@@ -28,7 +28,7 @@
 						В связи с выше написанным предлагаю рассмотреть в качестве средства контроля надежности насосов разработку математической модели.
 						В данной работе в качестве объекта моделирования будет насос лопастной центробежный.
 					</p>
-					<img src = "C:/Users/Константин/Desktop/My web page/MyBLOG/static/image/For_articles/for_nasos.jpg">
+					<img src = "{{url_for('static', filename='image/For_articles/for_nasos.jpg')}}">
 				</div>
 				<div class="article">
 					<h2>Заголовок статьи 2</h2>

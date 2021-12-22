@@ -10,11 +10,6 @@ def main():
 def articles():
     return render_template('Menu_article.html')
 
-
-    
-@app.route('/Download/<name>')
-def download(name):
-    return send_file(name, as_attachment=True)
     
 @app.route('/article1')
 def article1():

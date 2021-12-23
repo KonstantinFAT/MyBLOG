@@ -3,6 +3,7 @@ from flask import Flask, render_template, url_for, send_file
 app = Flask(__name__)
 
 @app.route('/main')
+@app.route('/')
 def main():
     return render_template('Main.html')
 
